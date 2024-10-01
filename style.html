@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Introduction to HTML DOM </title>
+</head>
+
+<body>
+<h1>Real time Log In </h1>
+    
+<form id="loginForm" onsubmit="validate(event)">
+
+<div>
+    <label for="email">Email</label> 
+    <input type="email" id="email" name="email">
+</div>
+<div>
+    <label for="password">password</label> 
+    <input type="password" id="password" name="password" minlength="8">
+</div>
+<div>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" min="12" max="50">
+</div>
+<button type="submit">LogIn</button>
+</form>
+<div id="massage"></div>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
